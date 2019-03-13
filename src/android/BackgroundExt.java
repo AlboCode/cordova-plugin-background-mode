@@ -64,7 +64,7 @@ import static android.view.WindowManager.LayoutParams.FLAG_TURN_SCREEN_ON;
  * Implements extended functions around the main purpose
  * of infinite execution in the background.
  */
-public class BackgroundModeExt extends CordovaPlugin {
+public class BackgroundExt extends CordovaPlugin {
 
     // To keep the device awake
     private PowerManager.WakeLock wakeLock;
